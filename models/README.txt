@@ -1,0 +1,1 @@
+Coloca aquí tu model_baseline.pkl o reentrena con: py -m src.ai_real_detector.train --data-dir datasets/sample --out models/model_baseline.pkl
