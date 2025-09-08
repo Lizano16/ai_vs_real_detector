@@ -122,6 +122,29 @@ py -m app.main
 - En local no se sube nada a Internet.
 - Si publicas online, usar HTTPS y controles de acceso.
 
+  ---
+
+## 💻 Probar el proyecto (Windows / Local)
+
+Sigue estos pasos para ejecutar la interfaz y probar el detector:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/Lizano16/ai_vs_real_detector.git
+cd ai_vs_real_detector
+
+# Crear un entorno virtual (opcional, recomendado)
+py -m venv .venv
+.venv\Scripts\activate
+
+# Instalar dependencias
+py -m pip install --upgrade pip
+py -m pip install -r requirements.txt
+
+# Ejecutar la interfaz gráfica
+py -m app.main
+
+
 ---
 
 ##  Problemas comunes
